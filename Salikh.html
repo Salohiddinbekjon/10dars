@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Salikh.css">
+    <script src="./dataBase/pokemons.js" defer></script>
+    <script src="./Salikh.js" defer></script>
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <h1>Pokemon</h1>
+    <div class="inputDiv">
+        <input type="text" placeholder="search...">
+        <select class="type">
+            <option value="all">All</option>
+            <option value="grass-poison">Grass Poison</option>
+            <option value="fire">Fire</option>
+            <option value="fire-flying">Fire flying</option>
+            <option value="water">Water</option>
+            <option value="bug">Bug</option>
+        </select>
+        <select class="sort">
+            <option value="ascending">Ascending</option>
+            <option value="descending">Descending</option>
+        </select>
+        <button>Search</button>
+    </div>
+    <div class="pokemonsDiv"></div>
+</body>
+
+</html>
